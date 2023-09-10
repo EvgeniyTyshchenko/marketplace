@@ -1,4 +1,4 @@
-package ru.evgeniy.marketplace.controller.Impl;
+package ru.evgeniy.marketplace.controllers.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.evgeniy.marketplace.controller.AuthApiController;
+import ru.evgeniy.marketplace.controllers.AuthApiController;
 import ru.evgeniy.marketplace.dto.other.Credentials;
 import ru.evgeniy.marketplace.service.AuthService;
 

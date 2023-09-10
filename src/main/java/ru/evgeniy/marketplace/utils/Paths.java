@@ -11,4 +11,5 @@ public class Paths {
     public final static String STANDARD_IMAGE_DIRECTORY = "src/main/resources/static/default";
 
     public final static String STANDARD_AVATAR_PATH = "src/main/resources/static/default/avatar/avatar.jpg";
+    public final static String STANDARD_AD_IMAGE_PATH = "src/main/resources/static/default/ad/ad_image.jpg";
 }

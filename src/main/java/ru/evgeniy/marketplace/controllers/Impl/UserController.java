@@ -1,11 +1,11 @@
-package ru.evgeniy.marketplace.controller.Impl;
+package ru.evgeniy.marketplace.controllers.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import ru.evgeniy.marketplace.controller.UserApiController;
+import ru.evgeniy.marketplace.controllers.UserApiController;
 import ru.evgeniy.marketplace.dto.ImageDTO;
 import ru.evgeniy.marketplace.dto.PasswordUpdaterDTO;
 import ru.evgeniy.marketplace.dto.UserDTO;

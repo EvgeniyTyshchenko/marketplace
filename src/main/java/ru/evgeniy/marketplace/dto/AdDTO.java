@@ -2,9 +2,11 @@ package ru.evgeniy.marketplace.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Getter;
 import ru.evgeniy.marketplace.entity.Ad;
 import ru.evgeniy.marketplace.utils.Paths;
 
+@Getter
 public class AdDTO {
 
     @JsonProperty(value = "pk")

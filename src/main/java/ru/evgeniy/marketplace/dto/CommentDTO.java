@@ -3,10 +3,12 @@ package ru.evgeniy.marketplace.dto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Getter;
 import ru.evgeniy.marketplace.entity.Comment;
 import ru.evgeniy.marketplace.entity.User;
 
 @JsonInclude(value = JsonInclude.Include.NON_DEFAULT)
+@Getter
 public class CommentDTO {
 
     @JsonProperty(value = "pk")

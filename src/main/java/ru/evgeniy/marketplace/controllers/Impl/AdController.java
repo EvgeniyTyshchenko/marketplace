@@ -1,4 +1,4 @@
-package ru.evgeniy.marketplace.controller.Impl;
+package ru.evgeniy.marketplace.controllers.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import ru.evgeniy.marketplace.controller.AdApiController;
+import ru.evgeniy.marketplace.controllers.AdApiController;
 import ru.evgeniy.marketplace.dto.*;
 import ru.evgeniy.marketplace.entity.Ad;
 import ru.evgeniy.marketplace.service.AdService;

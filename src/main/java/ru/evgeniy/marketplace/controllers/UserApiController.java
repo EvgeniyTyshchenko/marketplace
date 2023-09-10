@@ -1,4 +1,4 @@
-package ru.evgeniy.marketplace.controller;
+package ru.evgeniy.marketplace.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

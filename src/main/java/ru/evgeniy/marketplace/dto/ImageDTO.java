@@ -1,10 +1,16 @@
 package ru.evgeniy.marketplace.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import ru.evgeniy.marketplace.utils.exception.RuntimeIOException;
 
+@NoArgsConstructor
+@Getter
+@Setter
 public class ImageDTO {
 
     @Schema(description = "Массив байтов, представляющий содержимое файла")

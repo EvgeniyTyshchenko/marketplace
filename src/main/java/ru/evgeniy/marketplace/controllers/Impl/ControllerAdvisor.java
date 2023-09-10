@@ -1,4 +1,4 @@
-package ru.evgeniy.marketplace.controller.Impl;
+package ru.evgeniy.marketplace.controllers.Impl;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
